@@ -5,7 +5,8 @@
 ![Twitter](https://img.shields.io/twitter/follow/collabnix?style=social)
 
 
-# wasmlabs
+# Wasmlabs
+
 A Curated List of Tutorials and Guides for Wasm
 
 # 📝 Join our Community
@@ -16,7 +17,7 @@ A Curated List of Tutorials and Guides for Wasm
 -  Click and Follow us over Twitter [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40collabnix)](https://twitter.com/collabnix)
 
 
-## Getting Started
+# 📌 Workshop/Labs (Hands-On Practical Labs)
 
 ## Introduction to WebAssembly
    - What is WebAssembly?
