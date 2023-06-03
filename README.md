@@ -20,7 +20,8 @@ A Curated List of Tutorials and Guides for Wasm
 # 📌 Workshop/Labs (Hands-On Practical Labs)
 
 ## Introduction to WebAssembly
-   - What is WebAssembly?
+   - [What is WebAssembly?](https://github.com/collabnix/wasmlabs/blob/main/introduction/README.md)
+   - [Key Features and Advantages of WebAssembly](https://github.com/collabnix/wasmlabs/tree/main/introduction#key-features-and-advantages-of-webassembly)
    - Benefits and use cases of WebAssembly
    - Comparison with JavaScript
  
