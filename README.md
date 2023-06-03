@@ -1,3 +1,10 @@
+
+![stars](https://img.shields.io/github/stars/collabnix/wasmlabs)
+![Discord](https://img.shields.io/discord/1020180904129335379)
+![GitHub contributors](https://img.shields.io/github/contributors/collabnix/wasmlabs)
+![Twitter](https://img.shields.io/twitter/follow/collabnix?style=social)
+
+
 # wasmlabs
 A Curated List of Tutorials and Guides for Wasm
 
