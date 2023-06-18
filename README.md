@@ -21,7 +21,7 @@ A Curated List of Tutorials and Guides for Wasm
 
 ## Wasm for Python Developers
 
-- [Using Wasmer]()
+- [Using Wasmer](https://github.com/collabnix/wasmlabs/blob/main/python/wasmer/README.md)
 
 
 ## Wasm for Rust Developers
