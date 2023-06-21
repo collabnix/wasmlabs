@@ -40,7 +40,7 @@ A Curated List of Tutorials and Guides for Wasm
 
 ## Wasm and Kubernetes
 
-- [Wasm and Kubernetes - How they work together?]()
+- [Wasm and Kubernetes - How they work together?](https://github.com/collabnix/wasmlabs/blob/main/kubernetes/working-together.md)
 
 
 
