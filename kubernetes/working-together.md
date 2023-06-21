@@ -14,7 +14,7 @@ To run WebAssembly workloads on Kubernetes, we need two key components:
 
 
 
-In this blog post, we will explore how to use WebAssembly and Kubernetes together to build and deploy a sample app. We will walk you through the steps needed to set up a local environment, build a sample app using WebAssembly, and deploy it on a Kubernetes cluster.
+In this tutorial, we will explore how to use WebAssembly and Kubernetes together to build and deploy a sample app. We will walk you through the steps needed to set up a local environment, build a sample app using WebAssembly, and deploy it on a Kubernetes cluster.
 
 ## Step 1: Set up a Local Environment
 
@@ -158,6 +158,6 @@ You should see a simple web page that allows you to enter two numbers and get th
 
 ## Conclusion
 
-In this blog post, we have explored how to use WebAssembly and Kubernetes together to build and deploy a sample app. We have walked you through the steps needed to set up a local environment, build a sample app using Rust and WebAssembly, and deploy it on a Kubernetes cluster.
+In this tutorial, we have explored how to use WebAssembly and Kubernetes together to build and deploy a sample app. We have walked you through the steps needed to set up a local environment, build a sample app using Rust and WebAssembly, and deploy it on a Kubernetes cluster.
 
 WebAssembly offers a fast and efficient way to run code on the web, and Kubernetes provides a powerful platform for deploying and managing containerized applications. By combining these technologies, we can build and deploy web apps that are fast, scalable, and easy to manage.
