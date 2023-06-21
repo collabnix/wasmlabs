@@ -1,4 +1,5 @@
 
+## How to Build Wasm Docker Image and Push it to Docker Hub
 
 Getting Started:
 
