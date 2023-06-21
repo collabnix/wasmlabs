@@ -42,7 +42,9 @@ A Curated List of Tutorials and Guides for Wasm
 
 - [Wasm and Kubernetes - How they work together?](https://github.com/collabnix/wasmlabs/blob/main/kubernetes/working-together.md)
 
+## Wasm and Docker
 
+- [Building and Pushing Your First Wasm App to Docker Hub]()
 
 
 
