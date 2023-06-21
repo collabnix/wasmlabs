@@ -23,7 +23,7 @@ A Curated List of Tutorials and Guides for Wasm
 
 - [What is WebAssembly?](https://github.com/collabnix/wasmlabs/blob/main/introduction/README.md)
 - [Key Features and Advantages of WebAssembly](https://github.com/collabnix/wasmlabs/tree/main/introduction#key-features-and-advantages-of-webassembly)
-- Is Wasm better than JavaScript
+- [Is Wasm better than JavaScript](https://github.com/collabnix/wasmlabs/blob/main/javascript/README.md)
 
 
 
