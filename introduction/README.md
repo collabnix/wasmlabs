@@ -1,6 +1,6 @@
 ## Overview of WebAssembly as a low-level, binary instruction format
 
-![x86](https://github.com/collabnix/wasmlabs/assets/313480/87b9799f-7e96-43a3-af1c-9e5e5227398e)
+![x866](https://github.com/collabnix/wasmlabs/assets/313480/b90943b2-3a6c-44b6-983c-25053843283d)
 
 
 
