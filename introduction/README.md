@@ -44,8 +44,16 @@ WebAssembly's combination of performance, language independence, compatibility, 
 
 ## How does Wasm work in browsers?
 
-Browser engines integrate a Wasm virtual machine, usually called a Wasm runtime, which can run the Wasm binary instructions. 
-There are compiler toolchains (like Emscripten) that can compile source code to the Wasm target. This allows for legacy applications to be ported to a browser and directly communicate with the JS code that runs in client-side Web applications.
+
+Browser engines, such as Google Chrome's V8 engine and Mozilla Firefox's SpiderMonkey, include a WebAssembly (Wasm) virtual machine or runtime. This runtime is responsible for executing the Wasm binary instructions within the browser environment.
+
+To enable running existing applications or codebases in the browser, compiler toolchains like Emscripten come into play. Emscripten is a popular toolchain that can compile source code written in languages like C, C++, or Rust into the Wasm target. It translates the code into a format that can be understood and executed by the Wasm runtime in the browser.
+
+By using Emscripten or similar tools, developers can port legacy applications, libraries, or game engines written in languages like C or C++ to run in the browser. This allows them to leverage the power of native languages and reuse existing codebases while seamlessly integrating with client-side JavaScript code in web applications.
+
+The Wasm runtime provides an interface that enables communication between the Wasm module and the JavaScript code running in the browser. This allows bidirectional data exchange, function calls, and interactions between the Wasm module and the surrounding JavaScript environment.
+
+Overall, WebAssembly provides a standardized and efficient format for running code in the browser, allowing developers to leverage existing codebases and bring powerful applications to the web platform.
 
 ![Untitled-2023-06-22-2312](https://github.com/collabnix/wasmlabs/assets/313480/e74d6bbc-fdbe-43d7-9626-102622a76bfe)
 
@@ -54,8 +62,17 @@ There are compiler toolchains (like Emscripten) that can compile source code to 
 
 ## How does Wasm work on servers?
 
+In addition to running within the browser, WebAssembly (Wasm) can also be executed outside of the browser environment. This is made possible by Wasm runtimes that are designed to function on traditional operating systems like Linux, Windows, and macOS.
 
-There are Wasm runtimes that can run outside of the browser, including traditional operating systems such as Linux, Windows and macOS. Because they cannot rely on a JavaScript engine being available they communicate with the outside world using different interfaces, such as WASI, the WebAssembly System Interface. These runtimes allow Wasm applications to interact with their host system in a similar (but not quite the same) way as POSIX. Projects like WASI SDK and wasi-libc help people compile existing POSIX-compliant applications to WebAssembly.
+When running Wasm applications outside of the browser, the Wasm runtime needs to communicate with the host system using interfaces other than the JavaScript engine. One such interface is the WebAssembly System Interface (WASI). WASI provides a standardized way for Wasm modules to interact with the host system, similar to how applications interact with the operating system through POSIX interfaces.
+
+WASI allows Wasm modules to perform various system-related operations, such as file I/O, network access, and interacting with system resources. By leveraging WASI, Wasm runtimes enable Wasm applications to communicate with the host system in a secure and controlled manner.
+
+To facilitate the porting of existing POSIX-compliant applications to WebAssembly, projects like WASI SDK and wasi-libc have been developed. WASI SDK provides a toolchain and set of development tools for compiling POSIX applications to the Wasm target, while wasi-libc is a C library implementation that provides the necessary POSIX-compatible functions and system calls for Wasm modules.
+
+By using WASI SDK and wasi-libc, developers can compile their existing applications, written in languages compatible with POSIX standards, to WebAssembly. This allows them to take advantage of the cross-platform nature of WebAssembly while reusing their existing codebases and benefiting from the performance and security advantages offered by WebAssembly.
+
+In summary, Wasm runtimes that operate outside of the browser, coupled with the WASI interface and supporting tools like WASI SDK and wasi-libc, enable Wasm applications to interact with the host system and bring the power of WebAssembly to traditional operating systems in a portable and efficient manner.
 
 
 ![server](https://github.com/collabnix/wasmlabs/assets/313480/3f7dc5e1-9df2-4345-adc6-dc8faf2424f5)
