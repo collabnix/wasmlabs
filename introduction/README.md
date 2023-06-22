@@ -46,3 +46,14 @@ There are compiler toolchains (like Emscripten) that can compile source code to 
 
 Source ~ https://wasmlabs.dev/articles/docker-without-containers/
 
+
+## How does Wasm work on servers?
+
+
+There are Wasm runtimes that can run outside of the browser, including traditional operating systems such as Linux, Windows and macOS. Because they cannot rely on a JavaScript engine being available they communicate with the outside world using different interfaces, such as WASI, the WebAssembly System Interface. These runtimes allow Wasm applications to interact with their host system in a similar (but not quite the same) way as POSIX. Projects like WASI SDK and wasi-libc help people compile existing POSIX-compliant applications to WebAssembly.
+
+
+![image](https://github.com/collabnix/wasmlabs/assets/313480/b86e79c7-a8d7-43fe-b86c-18ef4554e3d2)
+
+Source ~ https://wasmlabs.dev/articles/docker-without-containers/
+
