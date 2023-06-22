@@ -58,15 +58,13 @@ There are compiler toolchains (like Emscripten) that can compile source code to 
 There are Wasm runtimes that can run outside of the browser, including traditional operating systems such as Linux, Windows and macOS. Because they cannot rely on a JavaScript engine being available they communicate with the outside world using different interfaces, such as WASI, the WebAssembly System Interface. These runtimes allow Wasm applications to interact with their host system in a similar (but not quite the same) way as POSIX. Projects like WASI SDK and wasi-libc help people compile existing POSIX-compliant applications to WebAssembly.
 
 
-![image](https://github.com/collabnix/wasmlabs/assets/313480/b86e79c7-a8d7-43fe-b86c-18ef4554e3d2)
-
-[Source](https://wasmlabs.dev/articles/docker-without-containers/)
+![server](https://github.com/collabnix/wasmlabs/assets/313480/3f7dc5e1-9df2-4345-adc6-dc8faf2424f5)
 
 ## What about interpreted languages?
 
 So far we have only mentioned compiled languages such as C and Rust can target WebAssembly. For interpreted languages such as Python, Ruby and PHP, the approach is different: their interpreters are written in C and can be compiled to WebAssembly. Then this interpreted compiled to Wasm can be used to execute the source code files, typically ending in .py, .rb, .php and so on. Once compiled to Wasm, any platform with a Wasm runtime will be able to run those interpreted languages even if the actual interpreter was never compiled for that platform natively.
 
-![server](https://github.com/collabnix/wasmlabs/assets/313480/3f7dc5e1-9df2-4345-adc6-dc8faf2424f5)
+
 
 
 
