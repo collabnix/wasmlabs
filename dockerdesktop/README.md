@@ -84,3 +84,6 @@ docker buildx build . --file=Dockerfile --tag=ajeetraina/hello-wasm-docker
 ## Running the container
 
 ```
+docker run  --platform=wasi/wasm32 ajeetraina/hellowasm
+Docker container is running!
+```
