@@ -1,5 +1,8 @@
 ## Overview of WebAssembly as a low-level, binary instruction format
 
+Companies like Vercel, Fastly, Shopify, and Cloudflare support using Wasm for running code at the edge, and Fermyon is building a platform to run Wasm microservices in the cloud. 
+
+
 WebAssembly (often abbreviated as Wasm) is an open standard and low-level binary instruction format designed to execute code on the web. It serves as a portable compilation target for high-level languages like C, C++, Rust, and many others, enabling developers to run computationally intensive applications on the web platform with near-native performance.
 Unlike traditional web technologies like JavaScript, WebAssembly is not a programming language but rather a binary format that represents code in a compact and efficient manner. It defines a stack-based virtual machine that executes the instructions directly, offering a fast and predictable runtime environment.
 WebAssembly modules are typically compiled from higher-level languages into the binary format, making them more compact and efficient compared to equivalent JavaScript code. The binary format is designed to be fast to decode, optimizing load times and allowing for quick startup of applications.
