@@ -1,8 +1,7 @@
 ## Overview of WebAssembly as a low-level, binary instruction format
 
-![image](https://github.com/collabnix/wasmlabs/assets/313480/8e81566e-d8bc-4076-8c9e-a0689a230ce7)
+![x862wasm](https://github.com/collabnix/wasmlabs/assets/313480/c9c8bf4f-cc90-4f34-9df7-a16207895a93)
 
-[Source](https://wasmlabs.dev/articles/docker-without-containers/)
 
 
 Companies like Vercel, Fastly, Shopify, and Cloudflare support using Wasm for running code at the edge, and Fermyon is building a platform to run Wasm microservices in the cloud. 
