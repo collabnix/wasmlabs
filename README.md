@@ -27,7 +27,7 @@ A Curated List of Tutorials and Guides for Wasm
 
 ## Wasm and Docker Desktop
 
-- [ Getting Started with Wasm on Docker Desktop]()
+- [ Getting Started with Wasm on Docker Desktop](https://github.com/collabnix/wasmlabs/blob/main/dockerdesktop/README.md)
 
 
 ## Wasm for Python Developers
