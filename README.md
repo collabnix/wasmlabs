@@ -44,6 +44,8 @@ A Curated List of Tutorials and Guides for Wasm
 
 ## Wasm for C/C++ Developers
 
+- [Wasm and C](https://github.com/collabnix/wasmlabs/blob/main/c/README.md)
+
 
 ## Wasm and Kubernetes
 
