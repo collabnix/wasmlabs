@@ -36,3 +36,13 @@ WebAssembly boasts several key features and advantages, including:
 5. Ecosystem and Tooling: WebAssembly has a growing ecosystem with a wide range of tools and libraries available. Developers can find compilers, development frameworks, performance optimization tools, and debuggers specifically designed for WebAssembly, making development and deployment more convenient.
 
 WebAssembly's combination of performance, language independence, compatibility, security, and size efficiency positions it as a powerful tool for modern web development, offering new possibilities and enhanced user experiences.
+
+## How does Wasm work in browsers?
+
+Browser engines integrate a Wasm virtual machine, usually called a Wasm runtime, which can run the Wasm binary instructions. 
+There are compiler toolchains (like Emscripten) that can compile source code to the Wasm target. This allows for legacy applications to be ported to a browser and directly communicate with the JS code that runs in client-side Web applications.
+
+![image](https://github.com/collabnix/wasmlabs/assets/313480/1415a090-bf15-4999-b344-d8335fd19320)
+
+Source ~ https://wasmlabs.dev/articles/docker-without-containers/
+
