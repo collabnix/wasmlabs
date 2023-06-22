@@ -66,8 +66,7 @@ There are Wasm runtimes that can run outside of the browser, including tradition
 
 So far we have only mentioned compiled languages such as C and Rust can target WebAssembly. For interpreted languages such as Python, Ruby and PHP, the approach is different: their interpreters are written in C and can be compiled to WebAssembly. Then this interpreted compiled to Wasm can be used to execute the source code files, typically ending in .py, .rb, .php and so on. Once compiled to Wasm, any platform with a Wasm runtime will be able to run those interpreted languages even if the actual interpreter was never compiled for that platform natively.
 
-![image](https://github.com/collabnix/wasmlabs/assets/313480/2033c361-b12e-45ee-870c-0599cf0f949d)
+![server](https://github.com/collabnix/wasmlabs/assets/313480/3f7dc5e1-9df2-4345-adc6-dc8faf2424f5)
 
-[Source](https://wasmlabs.dev/articles/docker-without-containers/)
 
 
