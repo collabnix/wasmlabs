@@ -40,7 +40,7 @@ A Curated List of Tutorials and Guides for Wasm
 
 ## Wasm for Rust Developers
 
-- [Buidling Rust + Wasm](https://github.com/collabnix/wasmlabs/blob/main/rust/README.md)
+- [Buiding Rust + Wasm](https://github.com/collabnix/wasmlabs/blob/main/rust/README.md)
 
 
 ## Wasm for C/C++ Developers
