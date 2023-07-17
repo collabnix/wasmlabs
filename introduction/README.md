@@ -12,6 +12,18 @@ WebAssembly (often abbreviated as Wasm) is an open standard and low-level binary
 Unlike traditional web technologies like JavaScript, WebAssembly is not a programming language but rather a binary format that represents code in a compact and efficient manner. It defines a stack-based virtual machine that executes the instructions directly, offering a fast and predictable runtime environment.
 WebAssembly modules are typically compiled from higher-level languages into the binary format, making them more compact and efficient compared to equivalent JavaScript code. The binary format is designed to be fast to decode, optimizing load times and allowing for quick startup of applications.
 
+## Is WebAssembly a VM?
+
+WebAssembly (Wasm) is not a virtual machine (VM) itself, but it is often executed within a virtual machine environment.
+
+WebAssembly is a binary instruction format designed to run efficiently in web browsers. It is designed as a low-level assembly-like language that allows code to be executed at near-native speed. WebAssembly code is typically generated from higher-level programming languages like C/C++, Rust, or TypeScript.
+
+When executing WebAssembly code, it is typically run in a virtual machine called the WebAssembly runtime or engine. Examples of WebAssembly runtimes include V8 (used in Chrome and Node.js), SpiderMonkey (used in Firefox), and JavaScriptCore (used in Safari).
+
+The WebAssembly runtime takes the WebAssembly bytecode as input and provides the necessary infrastructure to execute the code. It includes components like the bytecode interpreter, just-in-time (JIT) compiler, garbage collector, and other runtime features.
+
+In summary, while WebAssembly itself is not a virtual machine, it is executed within a virtual machine environment provided by the WebAssembly runtime. This runtime enables efficient execution of WebAssembly code in web browsers and other environments that support WebAssembly.
+
 ## Comparison with other web technologies like JavaScript and asm.js
 
 WebAssembly provides several advantages over other web technologies, including JavaScript and asm.js:
