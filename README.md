@@ -87,6 +87,7 @@ A Curated List of Tutorials and Guides for Wasm
 # 🧑‍💻  Blogs
 
 - [Docker and Wasm Containers – Better Together](https://collabnix.com/docker-and-wasm-containers-better-together/)
+- [Docker Desktop and Spin for Serverless WebAssembly Apps](https://www.fermyon.com/blog/spin-in-docker)
 - [Adding Python support to Wasm Language Runtimes](https://wasmlabs.dev/articles/python-wasm32-wasi/)![badge](https://img.shields.io/badge/-new-red)
 - [Introducing the Docker+Wasm Technical Preview](https://www.docker.com/blog/docker-wasm-technical-preview/)
 - [Build, Share, and Run WebAssembly Apps Using Docker](https://www.docker.com/blog/build-share-run-webassembly-apps-docker/)
