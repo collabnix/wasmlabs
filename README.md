@@ -22,6 +22,7 @@ A Curated List of Tutorials and Guides for Wasm
 ## Introduction to Wasm
 
 - [What is WebAssembly?](https://github.com/collabnix/wasmlabs/blob/main/introduction/README.md)
+- [Which companies uses Wasm?](https://github.com/collabnix/wasmlabs/blob/main/introduction/README.md#which-companies-uses-wasm)
 - [Key Features and Advantages of WebAssembly](https://github.com/collabnix/wasmlabs/tree/main/introduction#key-features-and-advantages-of-webassembly)
 - [Is Wasm better than JavaScript](https://github.com/collabnix/wasmlabs/blob/main/javascript/README.md)
 - [How Wasm works in a browser](https://github.com/collabnix/wasmlabs/tree/main/introduction#how-does-wasm-work-in-browsers)
