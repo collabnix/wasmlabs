@@ -20,7 +20,7 @@ Wasm is still considered to be a relatively new technology, but it is maturing r
 - Fastly: Fastly is a CDN company that is using Wasm to improve the performance of its network. Wasm allows Fastly to cache and serve code more efficiently, which results in faster loading times for users.
 - Cloudflare: Cloudflare is another CDN company that is using Wasm to improve the performance of its network. Cloudflare uses Wasm to accelerate the loading of images, videos, and other assets.
 
-
+[Click Here to see the list of all companies](https://github.com/collabnix/wasmlabs/blob/main/whouseswasm/README.md)
 
 
 ## Is WebAssembly a VM?
