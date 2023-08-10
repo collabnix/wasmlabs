@@ -15,3 +15,19 @@
 | 10 | Netflix | Netflix is using Wasm to create more immersive and interactive video experiences for users. This makes it possible for users to watch movies and TV shows in a more engaging way |
 | 11 | Spotify | Spotify is using Wasm to create a more personalized and interactive music experience for users. This makes it possible for users to discover new music and get recommendations that are tailored to their interests. |
 | 12 | Figma |  Figma uses WebAssembly (Wasm). They announced in their blog post in 2019 that they were using Wasm to improve the performance of their web app. Wasm allows Figma to load and render vector graphics faster, which makes it a better experience for users. |
+| 13 | Tesla | Tesla is using Wasm to create more secure and reliable software for its cars |
+| 14 | Visa |  Visa is using Wasm to create more secure and reliable payment processing systems |
+| 15 | Web3 Foundation | The Web3 Foundation is a non-profit organization that is developing decentralized applications (dApps) on the Ethereum blockchain. They are using Wasm to create more efficient and secure dApps |
+| 16 | ZhongAn |  ZhongAn is a Chinese insurance company that is using Wasm to create more secure and efficient insurance products |
+| 17 | Snapchat | Snapchat is using Wasm to create more personalized and engaging experiences for users |
+| 18 | Samsung |  Samsung is using Wasm to create more secure and reliable applications |
+| 19 | Roblox |  Roblox is using Wasm to create high-performance games that can run in the browser |
+| 20 | Pinterest |  Pinterest is using Wasm to create more interactive and engaging experiences for users |
+| 21 | Nvidia | Nvidia is using Wasm to create machine learning models that can be run in the browser |
+
+
+
+
+
+
+
