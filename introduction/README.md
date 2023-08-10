@@ -14,6 +14,7 @@ WebAssembly modules are typically compiled from higher-level languages into the 
 
 Wasm is still considered to be a relatively new technology, but it is maturing rapidly. It is no longer considered to be experimental, and it is being used by a growing number of enterprises. As Wasm continues to mature, we can expect to see even more enterprises adopt it for a variety of use cases.
 
+- Figma: Figma uses WebAssembly (Wasm). They announced in their blog post in 2019 that they were using Wasm to improve the performance of their web app. Wasm allows Figma to load and render vector graphics faster, which makes it a better experience for users.
 - Adobe: Adobe is using Wasm to power its new Edge Compute platform. This platform allows Adobe to deliver high-performance applications to users on the edge, without having to worry about the performance of the user's device.
 - Microsoft: Microsoft is using Wasm in a number of its products, including Azure Functions, Visual Studio Code, and Edge. Azure Functions allows developers to run code on the edge without having to worry about the underlying infrastructure. Visual Studio Code is a popular IDE that supports Wasm development. And Edge is a web browser that supports Wasm, allowing developers to create high-performance web applications.
 - Cosmonic: Cosmonic is a company that offers a Wasm-based cloud platform called wasmCloud. wasmCloud allows developers to deploy and run Wasm applications in the cloud.
