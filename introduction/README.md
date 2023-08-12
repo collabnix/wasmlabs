@@ -50,6 +50,16 @@ WebAssembly provides several advantages over other web technologies, including J
 
 5. Size Efficiency: WebAssembly modules are highly compressed and smaller in size compared to equivalent JavaScript code. This results in faster downloads and reduced bandwidth consumption, especially for larger applications or games.
 
+
+## Wasm is NOT:
+
+- WebAssembly is not a programming language. It is a binary format that can be used to compile code from other languages, such as C++ and Rust.
+- WebAssembly is not a replacement for JavaScript. JavaScript is still the main language for writing web applications. WebAssembly can be used to speed up certain parts of a web application, but it is not a complete replacement for JavaScript.
+- WebAssembly is not a virtual machine. It is a compiled format that can be executed directly by the browser. This makes it much faster than JavaScript, which is interpreted by the browser.
+- WebAssembly is not a replacement for native code. Native code is code that is written specifically for a particular platform. WebAssembly is not as fast as native code, but it is much faster than JavaScript.
+- WebAssembly is not a silver bullet. It is a powerful tool that can be used to speed up web applications, but it is not a magic bullet. It still requires careful planning and design to be used effectively.
+
+
 ## Key features and advantages of WebAssembly
 
 WebAssembly boasts several key features and advantages, including:
