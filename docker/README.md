@@ -1,4 +1,4 @@
-# How is Wasm related to Docker
+# Why do we need Wasm containers?
 
 
 Traditionally, containers are built around operating system processes. This means that each container needs to have its own copy of the operating system, which can take up a lot of space and resources. Wasm containers, on the other hand, are much smaller and more lightweight. This is because Wasm code is compiled to a binary format that can be executed by any Wasm-compatible runtime.
