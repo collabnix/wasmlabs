@@ -30,7 +30,7 @@ int main() {
 ```
 export WASI_SDK_PATH=`pwd`/wasi-sdk-16.0
 CC="${WASI_SDK_PATH}/bin/clang"
-$CC hello-world.c -o hello-world.wasm
+CC hello-world.c -o hello-world.wasm
 ```
 
 
