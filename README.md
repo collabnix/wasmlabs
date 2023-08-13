@@ -27,9 +27,9 @@ A Curated List of Tutorials and Guides for Wasm
 - [Is Wasm better than JavaScript](https://github.com/collabnix/wasmlabs/blob/main/javascript/README.md)
 - [How Wasm works in a browser](https://github.com/collabnix/wasmlabs/tree/main/introduction#how-does-wasm-work-in-browsers)
 
-## Wasm and Docker Desktop
+## Wasm and Docker
 
-
+- [Why do we need Wasm containers?](https://github.com/collabnix/wasmlabs/blob/main/docker/README.md)
 - [Supported Wasm Runtime on Docker Desktop](https://github.com/collabnix/wasmlabs/blob/main/runtime/README.md)
 - [ Getting Started with Wasm on Docker Desktop](https://github.com/collabnix/wasmlabs/blob/main/dockerdesktop/README.md)
 
