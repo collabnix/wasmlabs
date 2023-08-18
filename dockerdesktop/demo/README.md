@@ -20,3 +20,23 @@ docker run \
 Hello WasmEdge!
 ```
 
+
+##  Running a Wasm application with Docker Compose
+
+
+The same application can be run using the following Docker Compose file:
+
+
+```
+services:
+  app:
+    image: secondstate/rust-example-hello
+    platform: wasi/wasm
+    runtime: io.containerd.wasmedge.v1
+````
+
+## Start the application using the normal Docker Compose commands:
+
+```
+ docker compose up
+```
