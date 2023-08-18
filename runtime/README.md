@@ -1,9 +1,9 @@
 Docker Desktop support the following Wasm runtime:
 
-- WasmEdge
-- slight from Deislabs
-- wasmtime from Bytecode Alliance
-- Spin
+- Slight: Slight is a lightweight Wasm runtime that is designed to be fast and efficient. It is a good choice for running Wasm workloads that require high performance.
+- Spin: Spin is a serverless Wasm runtime that is designed to be easy to use and deploy. It is a good choice for running Wasm workloads that are event-driven or that need to be scaled horizontally.
+- WasmEdge: WasmEdge is a full-featured Wasm runtime that supports a wide range of features. It is a good choice for running Wasm workloads that require a high degree of flexibility and control.
+- Wasmtime: Wasmtime is a Wasm runtime that is designed to be compatible with the WebAssembly specification. It is a good choice for running Wasm workloads that need to be portable to different environments.
 
 
 All of these runtimes uses the runwasi library.
