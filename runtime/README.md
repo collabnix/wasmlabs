@@ -15,10 +15,23 @@ Docker Desktop support the following Wasm runtime:
 - Spin: Spin is a serverless Wasm runtime that is designed to be easy to use and deploy. It is a good choice for running Wasm workloads that are event-driven or that need to be scaled horizontally.
 - WasmEdge: WasmEdge is a full-featured Wasm runtime that supports a wide range of features. It is a good choice for running Wasm workloads that require a high degree of flexibility and control.
 - Wasmtime: Wasmtime is a Wasm runtime that is designed to be compatible with the WebAssembly specification. It is a good choice for running Wasm workloads that need to be portable to different environments.
+  
 
+```
+docker run -it --rm --privileged --pid=host justincormack/nsenter1 /bin/ls /var/lib/wasm/runtimes
+```
 
-All of these runtimes uses the runwasi library.
-
+```
+docker run -it --rm --privileged --pid=host justincormack/nsenter1 /bin/ls /var/lib/wasm/runtimes
+Unable to find image 'justincormack/nsenter1:latest' locally
+e876f694a4cb: Download complete
+5d1b9dfb1c1f: Download complete
+d598f2517351: Download complete
+726619a9fa8c: Download complete
+containerd-shim-slight-v1    containerd-shim-wasmtime-v1
+containerd-shim-spin-v1      libwasmedge.so.0
+containerd-shim-wasmedge-v1  libwasmedge.so.0.0.2
+```
 
 ## WasmEdge
 
