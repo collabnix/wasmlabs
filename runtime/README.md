@@ -1,3 +1,14 @@
+## Supported Wasm Runtimes on Docker Desktop
+
+
+Docker Desktop downloads and installs the following runtimes that you can use to run Wasm workloads:
+
+- io.containerd.slight.v1
+- io.containerd.spin.v1
+- io.containerd.wasmedge.v1
+- io.containerd.wasmtime.v1
+
+
 Docker Desktop support the following Wasm runtime:
 
 - Slight: Slight is a lightweight Wasm runtime that is designed to be fast and efficient. It is a good choice for running Wasm workloads that require high performance.
