@@ -10,13 +10,16 @@ mkdir wasm
 cd wasm
 ```
 
-## 
+## Add Wasm32-wasi to yoru Rust Toolchain
+
+
+The command ```rustup target add wasm32-wasi``` adds the wasm32-wasi target to your Rust toolchain. This target allows you to compile Rust code to WebAssembly (WASM) for the WebAssembly System Interface (WASI).
 
 ```
 rustup target add wasm32-wasi
 ```
 
-Run the following command to verify if  Rust is configured and you’re ready to create the app.
+## Verify if  Rust is configured and you’re ready to create the app.
 
 ```
 rustup target list
