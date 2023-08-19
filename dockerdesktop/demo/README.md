@@ -40,3 +40,27 @@ services:
 ```
  docker compose up
 ```
+
+
+## Running Wasm and amd64 containers side by side
+
+```
+git clone https://github.com/second-state/microservice-rust-mysql.git
+```
+
+## Bringing up the services
+
+```
+cd microservice-rust-mysql
+docker compose up
+```
+
+## Checking the architecture
+
+```
+docker image inspect demo-microservice | grep -A 3 "Architecture"
+        "Architecture": "wasm",
+        "Os": "wasi",
+        "Size": 3397469,
+        "VirtualSize": 3397469,
+```
