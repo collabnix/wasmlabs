@@ -1,4 +1,14 @@
 
+
+## How to verify if Wasm runtimes are loaded
+
+```
+docker run -it --rm --privileged --pid=host justincormack/nsenter1 /bin/ls /var/lib/wasm/runtimes
+```
+
+
+
+
 ## Demonstrating Hello World using WasmEdge Runtime
 
 
