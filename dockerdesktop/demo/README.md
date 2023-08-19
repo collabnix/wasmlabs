@@ -62,6 +62,7 @@ git clone https://github.com/second-state/microservice-rust-mysql.git
 
 ```
 cd microservice-rust-mysql
+export BUILDX_NO_DEFAULT_ATTESTATION=1
 docker compose up
 ```
 
