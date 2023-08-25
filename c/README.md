@@ -2,6 +2,14 @@
 
 ## Prerequisite
 
+- Docker Desktop 4.21.0
+- Enable Wasm under Docker Desktop Settings 
+
+
+<img width="757" alt="image" src="https://github.com/collabnix/wasmlabs/assets/34368930/065a8735-ab85-49a5-a42d-c0f5530fa24b">
+
+
+
 ## Installing WASI
 
 WASI is a modular system interface for WebAssembly.
