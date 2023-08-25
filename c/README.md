@@ -1,6 +1,25 @@
 ## Create a simple “Hello, Wasm” C Program
 
-Create the below file and save it as hello-world.c
+## Prerequisite
+
+## Installing WASI
+
+WASI is a modular system interface for WebAssembly.
+
+First, download wasi from the following URL:
+
+```
+wget https://github.com/WebAssembly/wasi-sdk/releases/download/wasi-sdk-16/wasi-sdk-16.0-macos.tar.gz
+```
+
+## Untar the WASI SDK
+
+```
+tar xvf wasi-sdk-16.0-macos.tar.gz
+```
+
+
+## Create the below file and save it as hello-world.c
 
 ```
  /* C program to print Hello Wasm! */
@@ -32,44 +51,25 @@ hello-world.wasm: WebAssembly (wasm) binary module version 0x1 (MVP)
 Here's a Dockerfile that you can use to containerize your "Hello, Wasm" C program:
 
 ```
-# Use a base image with the necessary toolchain for building the WASM module
-FROM emscripten/emsdk 
-
-# Set the working directory inside the container
-WORKDIR /app
-
-# Copy the C source file into the container
-COPY hello-world.c .
-
-# Compile the C program into a WebAssembly module
-RUN emcc hello-world.c -o hello-world.wasm
-
-# Set the command to run when the container starts
-CMD ["echo", "Docker container is running!"]
-
-# Optionally, you can uncomment the following line if you want to execute the WebAssembly module
-# CMD ["emrun", "--no_browser", "--port", "8080", "."]
+FROM scratch
+COPY --chmod=755 hello-world.wasm /hello-world.wasm
+ENTRYPOINT [ "/hello-world.wasm" 
 ```
-
-Here's a breakdown of the Dockerfile:
-
-- The base image emscripten/emsdk  includes the necessary Emscripten toolchain for building WebAssembly modules.
-- The working directory inside the container is set to /app.
-- The hello-world.c file is copied into the container's /app directory.
-- The emcc command is used to compile the C program into a WebAssembly module named hello-world.wasm.
-- The CMD instruction sets the default command to run when the container starts. In this example, it simply echoes a message, but you can modify it as needed.
-- Optionally, you can uncomment the last CMD line if you want to execute the WebAssembly module using Emscripten's emrun tool.
 
 
 ## Building the Image
 
 ```
-docker buildx build . --file=Dockerfile --tag=ajeetraina/hello-wasm-docker
+docker build --platform=wasi/wasm --provenance=false -t hello-world-wasm --load .
 ```
 
 ## Running the container
 
 ```
-docker run  --platform=wasi/wasm32 ajeetraina/hellowasm
-Docker container is running!
+docker run --platform=wasi/wasm --rm -i --runtime=io.containerd.wasmedge.v1 hello-world-wasm
 ```
+
+<img width="1341" alt="image" src="https://github.com/collabnix/wasmlabs/assets/34368930/f44a9c49-79d6-43b0-bcd2-ac8932686732">
+
+
+
