@@ -2,7 +2,7 @@
 
 ## Prerequisite
 
-- Docker Desktop 4.21.0
+- Docker Desktop 4.22.0
 - Enable Wasm under Docker Desktop Settings 
 
 
