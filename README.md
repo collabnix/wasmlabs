@@ -98,7 +98,8 @@ A Curated List of Tutorials and Guides for Wasm
 - [WebAssembly: The future of cloud computing](https://nigelpoulton.com/webassembly-the-future-of-cloud-computing/)![badge](https://img.shields.io/badge/-new-red)<br>
 - [Try Wasm with Docker](https://dev.classmethod.jp/articles/wasm-docker/) ![badge](https://img.shields.io/badge/-new-red)<br>
 - [Docker + Wasm: The Evolution Of Containerized Web Development](https://www.rahulbagal.software/docker-wasm-the-evolution-of-containerized-web-development)<br>
-- [Introducing SpinKube and Fermyon Platform for Kubernetes](https://www.fermyon.com/blog/introducing-spinkube-fermyon-platform-for-k8s) ![badge](https://img.shields.io/badge/-new-red)
+- [Introducing SpinKube and Fermyon Platform for Kubernetes](https://www.fermyon.com/blog/introducing-spinkube-fermyon-platform-for-k8s) ![badge](https://img.shields.io/badge/-new-red)<br>
+- [Demystifying WebAssembly: A Guide for Beginners](https://collabnix.com/demystifying-webassembly-a-guide-for-beginners/) ![badge](https://img.shields.io/badge/-new-red)
 
 
 ## ✍️ Tutorials
