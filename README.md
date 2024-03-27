@@ -75,16 +75,17 @@ A Curated List of Tutorials and Guides for Wasm
 - [Learning to set up a docker container which runs WASM](https://github.com/admiral-akk/rust-wasm-docker)
 - [Dockerfile to build a wasm builder environment](https://github.com/leviyanx/wasm)
 - [A Calendar suite / UI component library / function library](https://github.com/leosdibella/aciculate)
-- [A Blazor WASM Shopping List Web App with a .Net backend](https://github.com/Velociraptor45/ProjectHermes-ShoppingList) ![badge](https://img.shields.io/badge/-new-red)<br>
+- [A Blazor WASM Shopping List Web App with a .Net backend](https://github.com/Velociraptor45/ProjectHermes-ShoppingList)<br>
 - [Pyodide in the bacalhau python_wasm executor](https://github.com/lukemarsden/pyodide)
 - [Crypter - An End-to-End Encrypted File and Message Transfer](https://github.com/Crypter-File-Transfer/Crypter)
 - [GitPod, Rust, Wasm and Docker Together](https://github.com/dtoebe/GitPod-Rust-Wasm-Docker)
 - [C, Wasm and Docker](https://github.com/kingso/docker-wasm)
 - [Blazor Wasm Hosted Docker](https://github.com/dotnetnoobie/BlazorWasmHostedDocker)
 - [Building the LDK Garbagesollected Bindings and WASM](https://github.com/synonymdev/ldk-garbagecollected-docker)
-- [A Docker base image for building yarn/Rust apps](https://github.com/rbtying/yarn-wasm-rust-build-image) ![badge](https://img.shields.io/badge/-new-red)<br>
+- [A Docker base image for building yarn/Rust apps](https://github.com/rbtying/yarn-wasm-rust-build-image)<br>
 - [Rick And Morty Wiki Blazor App - .NET + GraphQL + Wasm + Docker](https://github.com/The-Katsu/RickAndMortyWiki)<br>
-- [PoC to measure the performance provided by WASM](https://github.com/electrocucaracha/k8s-WASM-demo) ![badge](https://img.shields.io/badge/-new-red)
+- [PoC to measure the performance provided by WASM](https://github.com/electrocucaracha/k8s-WASM-demo) ![badge](https://img.shields.io/badge/-new-red)<br>
+- [Docker image for compiling rust wasm projects, The tag is the rustc version, ex: 1.70.0](https://github.com/dylanowen/docker-wasm-pack) ![badge](https://img.shields.io/badge/-new-red)
 
 # 🧑‍💻  Blogs
 
