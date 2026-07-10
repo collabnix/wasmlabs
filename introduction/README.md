@@ -10,7 +10,7 @@ Unlike traditional web technologies like JavaScript, WebAssembly is not a progra
 WebAssembly modules are typically compiled from higher-level languages into the binary format, making them more compact and efficient compared to equivalent JavaScript code. The binary format is designed to be fast to decode, optimizing load times and allowing for quick startup of applications.
 
 
-## Which companies uses Wasm
+## Which companies use Wasm
 
 Wasm is no longer experimental. A scan of current public GitHub repositories shows it being used in runtimes, edge platforms, developer tooling, Kubernetes platforms, API gateways, and databases.
 
@@ -118,7 +118,6 @@ In summary, Wasm runtimes that operate outside of the browser, coupled with the 
 ## What about interpreted languages?
 
 So far we have only mentioned compiled languages such as C and Rust can target WebAssembly. For interpreted languages such as Python, Ruby and PHP, the approach is different: their interpreters are written in C and can be compiled to WebAssembly. Then this interpreted compiled to Wasm can be used to execute the source code files, typically ending in .py, .rb, .php and so on. Once compiled to Wasm, any platform with a Wasm runtime will be able to run those interpreted languages even if the actual interpreter was never compiled for that platform natively.
-
 
 
 
