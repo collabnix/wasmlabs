@@ -1,33 +1,20 @@
-# List of Companies that uses Wasm
+# List of Companies and Organizations Using Wasm
 
+This list was refreshed by scanning public GitHub repositories and keeping only entries with clear GitHub evidence.
 
-| S. No | Name | How are they using it?|
-|-----------|-------------|--------------|
-|    1 | Adobe | Adobe is using Wasm to power its new Edge Compute platform. This platform allows Adobe to deliver high-performance applications to users on the edge, without having to worry about the performance of the user's device.|
-| 2| Microsoft | Microsoft is using Wasm in a number of its products, including Azure Functions, Visual Studio Code, and Edge. Azure Functions allows developers to run code on the edge without having to worry about the underlying infrastructure. Visual Studio Code is a popular IDE that supports Wasm development. And Edge is a web browser that supports Wasm, allowing developers to create high-performance web applications.|
-| 3 | Cosmonic | Cosmonic is a company that offers a Wasm-based cloud platform called wasmCloud. wasmCloud allows developers to deploy and run Wasm applications in the cloud.|
-| 4 | Fastly | Fastly is a CDN company that is using Wasm to improve the performance of its network. Wasm allows Fastly to cache and serve code more efficiently, which results in faster loading times for users.|
-| 5 | Cloudflare | Cloudflare is another CDN company that is using Wasm to improve the performance of its network. Cloudflare uses Wasm to accelerate the loading of images, videos, and other assets.| 
-| 6 | Docker | Docker integrated Wasm into their Docker Desktop. Supports multiple runtimes like WasmEdge, slight from Deislabs, wasmtime from Bytecode Alliance and Spin |
-| 7 | Unity | Unity is a game engine that is using Wasm to create high-performance games that can run in the browser. This is a major advancement, as it allows developers to create games that are not limited by the performance of the user's device.|
-| 8 | Google | Google is using Wasm to power a number of its products, including Google Maps, Google Translate, and Google Docs. This makes it possible to create more powerful and interactive experiences for users|
-| 9 | Amazon | Amazon is using Wasm to improve the performance of its e-commerce platform. This makes it possible for users to browse and purchase products more quickly and easily. |
-| 10 | Netflix | Netflix is using Wasm to create more immersive and interactive video experiences for users. This makes it possible for users to watch movies and TV shows in a more engaging way |
-| 11 | Spotify | Spotify is using Wasm to create a more personalized and interactive music experience for users. This makes it possible for users to discover new music and get recommendations that are tailored to their interests. |
-| 12 | Figma |  Figma uses WebAssembly (Wasm). They announced in their blog post in 2019 that they were using Wasm to improve the performance of their web app. Wasm allows Figma to load and render vector graphics faster, which makes it a better experience for users. |
-| 13 | Tesla | Tesla is using Wasm to create more secure and reliable software for its cars |
-| 14 | Visa |  Visa is using Wasm to create more secure and reliable payment processing systems |
-| 15 | Web3 Foundation | The Web3 Foundation is a non-profit organization that is developing decentralized applications (dApps) on the Ethereum blockchain. They are using Wasm to create more efficient and secure dApps |
-| 16 | ZhongAn |  ZhongAn is a Chinese insurance company that is using Wasm to create more secure and efficient insurance products |
-| 17 | Snapchat | Snapchat is using Wasm to create more personalized and engaging experiences for users |
-| 18 | Samsung |  Samsung is using Wasm to create more secure and reliable applications |
-| 19 | Roblox |  Roblox is using Wasm to create high-performance games that can run in the browser |
-| 20 | Pinterest |  Pinterest is using Wasm to create more interactive and engaging experiences for users |
-| 21 | Nvidia | Nvidia is using Wasm to create machine learning models that can be run in the browser |
-
-
-
-
-
-
-
+| S. No | Name | How are they using it? | GitHub evidence |
+|-----------|-------------|--------------|--------------|
+| 1 | Cloudflare | Cloudflare built `workerd`, the JavaScript and Wasm runtime that powers Cloudflare Workers, and also ships Wasm-based tools such as `html-rewriter-wasm`. | [workerd](https://github.com/cloudflare/workerd)<br>[html-rewriter-wasm](https://github.com/cloudflare/html-rewriter-wasm) |
+| 2 | Fastly | Fastly Compute runs application code compiled to Wasm and WASI for edge workloads, with official SDKs and starter projects for developers. | [compute-sdk-go](https://github.com/fastly/compute-sdk-go) |
+| 3 | Shopify | Shopify Functions uses Wasm modules to run merchant extensions such as custom commerce logic, with an official Wasm API repository. | [shopify-function-wasm-api](https://github.com/Shopify/shopify-function-wasm-api) |
+| 4 | Microsoft | Microsoft maintains Wasm-based developer tooling such as `wassette` and `vscode-python-web-wasm`, showing active use of Wasm in runtime and browser scenarios. | [wassette](https://github.com/microsoft/wassette)<br>[vscode-python-web-wasm](https://github.com/microsoft/vscode-python-web-wasm) |
+| 5 | Docker / containerd | The container ecosystem uses Wasm through `runwasi`, the containerd project for running Wasm workloads alongside containers. | [runwasi](https://github.com/containerd/runwasi)<br>[Docker Wasm docs](https://github.com/docker/docs/blob/main/content/manuals/desktop/features/wasm.md) |
+| 6 | Google Cloud | Google Cloud Service Extensions lets developers build inline networking extensions as Wasm modules using the Proxy-Wasm ABI. | [service-extensions-samples](https://github.com/GoogleCloudPlatform/service-extensions-samples) |
+| 7 | Bytecode Alliance | Bytecode Alliance stewards major Wasm runtimes such as Wasmtime and WAMR that are used across cloud, server, and embedded environments. | [wasmtime](https://github.com/bytecodealliance/wasmtime)<br>[wasm-micro-runtime](https://github.com/bytecodealliance/wasm-micro-runtime) |
+| 8 | wasmCloud | wasmCloud provides a cloud-native platform for running Wasm workloads across Kubernetes, clouds, datacenters, and edge environments. | [wasmCloud](https://github.com/wasmCloud/wasmCloud) |
+| 9 | Fermyon / Spin | Fermyon created Spin, an open source framework for building and running cloud microservices with WebAssembly. | [spin](https://github.com/spinframework/spin) |
+| 10 | WasmEdge / Second State | WasmEdge is a lightweight Wasm runtime used for cloud-native, edge, AI, and server-side workloads, with official runtime and examples published on GitHub. | [WasmEdge](https://github.com/WasmEdge/WasmEdge)<br>[wasmedge-containers-examples](https://github.com/second-state/wasmedge-containers-examples) |
+| 11 | Kong | Kong uses WebAssembly in its Nginx-based WasmX module to extend proxy and API gateway behavior with Proxy-Wasm filters. | [ngx_wasm_module](https://github.com/Kong/ngx_wasm_module) |
+| 12 | Solo.io | Solo.io publishes tooling, SDKs, and OCI packaging for Wasm modules used with Envoy-based gateways and service meshes. | [solo-io/wasm](https://github.com/solo-io/wasm) |
+| 13 | SingleStore | SingleStore uses Wasm in its Code Engine so developers can run Wasm-based UDFs and TVFs inside the database engine. | [singlestore-wasm-toolkit](https://github.com/singlestore-labs/singlestore-wasm-toolkit) |
+| 14 | SpinKube | SpinKube enables running Spin WebAssembly applications directly on Kubernetes through a dedicated containerd shim. | [containerd-shim-spin](https://github.com/spinkube/containerd-shim-spin) |

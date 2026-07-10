@@ -12,14 +12,18 @@ WebAssembly modules are typically compiled from higher-level languages into the 
 
 ## Which companies uses Wasm
 
-Wasm is still considered to be a relatively new technology, but it is maturing rapidly. It is no longer considered to be experimental, and it is being used by a growing number of enterprises. As Wasm continues to mature, we can expect to see even more enterprises adopt it for a variety of use cases.
+Wasm is no longer experimental. A scan of current public GitHub repositories shows it being used in runtimes, edge platforms, developer tooling, Kubernetes platforms, API gateways, and databases.
 
-- Figma: Figma uses WebAssembly (Wasm). They announced in their blog post in 2019 that they were using Wasm to improve the performance of their web app. Wasm allows Figma to load and render vector graphics faster, which makes it a better experience for users.
-- Adobe: Adobe is using Wasm to power its new Edge Compute platform. This platform allows Adobe to deliver high-performance applications to users on the edge, without having to worry about the performance of the user's device.
-- Microsoft: Microsoft is using Wasm in a number of its products, including Azure Functions, Visual Studio Code, and Edge. Azure Functions allows developers to run code on the edge without having to worry about the underlying infrastructure. Visual Studio Code is a popular IDE that supports Wasm development. And Edge is a web browser that supports Wasm, allowing developers to create high-performance web applications.
-- Cosmonic: Cosmonic is a company that offers a Wasm-based cloud platform called wasmCloud. wasmCloud allows developers to deploy and run Wasm applications in the cloud.
-- Fastly: Fastly is a CDN company that is using Wasm to improve the performance of its network. Wasm allows Fastly to cache and serve code more efficiently, which results in faster loading times for users.
-- Cloudflare: Cloudflare is another CDN company that is using Wasm to improve the performance of its network. Cloudflare uses Wasm to accelerate the loading of images, videos, and other assets.
+- Cloudflare: Maintains `workerd`, the JavaScript and Wasm runtime that powers Cloudflare Workers.
+- Fastly: Uses Wasm and WASI in Fastly Compute for edge applications.
+- Shopify: Runs Shopify Functions as Wasm modules with an official Wasm API.
+- Microsoft: Publishes Wasm-based tooling such as `wassette` and `vscode-python-web-wasm`.
+- Google Cloud: Uses Wasm plugins in Service Extensions through the Proxy-Wasm ABI.
+- Docker / containerd: Supports Wasm workloads with `runwasi` and Docker Desktop Wasm integration.
+- Fermyon / Spin: Builds microservices tooling around WebAssembly with the Spin framework.
+- wasmCloud: Runs Wasm workloads across Kubernetes, cloud, datacenter, and edge environments.
+- Kong: Extends Nginx and API gateway workloads with WebAssembly filters through WasmX.
+- SingleStore: Uses Wasm in its Code Engine for database extensions.
 
 [Click Here to see the list of all companies](https://github.com/collabnix/wasmlabs/blob/main/whouseswasm/README.md)
 
@@ -114,7 +118,6 @@ In summary, Wasm runtimes that operate outside of the browser, coupled with the 
 ## What about interpreted languages?
 
 So far we have only mentioned compiled languages such as C and Rust can target WebAssembly. For interpreted languages such as Python, Ruby and PHP, the approach is different: their interpreters are written in C and can be compiled to WebAssembly. Then this interpreted compiled to Wasm can be used to execute the source code files, typically ending in .py, .rb, .php and so on. Once compiled to Wasm, any platform with a Wasm runtime will be able to run those interpreted languages even if the actual interpreter was never compiled for that platform natively.
-
 
 
 
